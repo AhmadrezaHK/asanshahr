@@ -66,7 +66,7 @@ const List = props => {
             type='primary'
             onClick={() => {
               selectedAd(record);
-              history.push(`${match.path}/View`);
+              history.push(`/View`);
             }}
           >
             جزئیات

@@ -11,7 +11,7 @@ export default function App() {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path='/List/View' component={View} />
+          <Route path='/View' component={View} />
           <Route path='/List' component={List} />
           <Route path='/' component={Login} />
         </Switch>
